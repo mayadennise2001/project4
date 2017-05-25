@@ -13,28 +13,34 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #42bcf4;
 }
-
-
 
 li {
     float: left;
 }
 
 li a {
-    display: inline-block;
-    color: white;
+    display: block;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+li a:hover:not(.active) {
     background-color: #111;
 }
 
+.active {
+    background-color: #4CAF50;
+}
+
+}
+p{
+margin-left:5%;
+margin-right:5%;
+}
 </style>
 </head>
 <body>
